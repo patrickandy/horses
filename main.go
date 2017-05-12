@@ -12,7 +12,7 @@ var VERSION = "0.0.0-src" //set with ldflags
 func main() {
 	s := server.Server{
 		Title:      "Torrent Streamer",
-		Port:       2568,
+		Port:       3000,
 		ConfigPath: "torrent-stream.json",
 	}
 
